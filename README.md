@@ -1,10 +1,6 @@
 
 <div style="display: flex; justify-content: center; align-items: center;">
-
-<img src="https://github.com/rcnsol/nice-shades-bro/blob/main/resource/homebridge.png" width="150">
-<h1>+&nbsp;</h1>
-<img src="https://github.com/rcnsol/nice-shades-bro/blob/main/resource/becker.webp" width="200">
-
+<img src="https://github.com/rcnsol/nice-shades-bro/blob/main/resource/homebridge.png" width="150"> + Centronic
 </div>
 
 # *Nice shades, bro!* Homebridge Plugin
