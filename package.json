@@ -1,16 +1,16 @@
 {
   "private": true,
-  "displayName": "Plugin Name",
-  "name": "homebridge-plugin-name",
-  "version": "1.0.0",
-  "description": "A short description about what your plugin does.",
+  "displayName": "Nice shades, bro!",
+  "name": "nice-shades-bro",
+  "version": "0.0.1",
+  "description": "Homebridge plugin for controlling becker/centronic RF devices.",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME.git"
+    "url": "https://github.com/rcnsol/nice-shades-bro.git"
   },
   "bugs": {
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME/issues"
+    "url": "https://github.com/rcnsol/nice-shades-bro/issues"
   },
   "engines": {
     "node": ">=14.18.1",
@@ -24,7 +24,7 @@
     "prepublishOnly": "npm run lint && npm run build"
   },
   "keywords": [
-    "homebridge-plugin"
+    "homebridge", "plugin", "becker", "centronic", "shutter", "smarthome"
   ],
   "dependencies": {},
   "devDependencies": {

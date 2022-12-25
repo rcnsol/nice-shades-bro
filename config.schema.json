@@ -1,5 +1,5 @@
 {
-  "pluginAlias": "ExampleHomebridgePlugin",
+  "pluginAlias": "NiceShadesBro",
   "pluginType": "platform",
   "singular": true,
   "schema": {
@@ -9,7 +9,28 @@
         "title": "Name",
         "type": "string",
         "required": true,
-        "default": "Example Dynamic Platform"
+        "default": "NiceShadesBro"
+      },
+      "options": {
+        "title": "Advanced Settings",
+        "expandable": true,
+        "type": "object",
+        "properties": {
+          "devicesPerChannel": {
+            "title": "Number devices/channel",
+            "type": "integer",
+            "default": 1,
+            "minimum": 1,
+            "maximum": 4,
+            "description": "Number of devices (receivers) per channel (presumed one controller per channel)"
+          },
+          "cfgprop1": {
+            "title": "TestProp",
+            "type": "string",
+            "required": false,
+            "default": "yeah"
+          }
+        }
       }
     }
   }
